@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
-
 from django import forms
-
 from common.forms import BaseComponentForm
 from components.component import Component
 from .toolkit import configs
@@ -22,7 +20,7 @@ class GetFlaskContent(Component):
             return {
                 'app_id': data['app_id'],
             }
-
+    
     # 组件处理入口
     def handle(self):
         # 获取Form clean处理后的数据
