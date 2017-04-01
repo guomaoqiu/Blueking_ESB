@@ -15,7 +15,7 @@ class GetFlaskContent(Component):
     @apiParam {string} app_code 应用标识，即应用 ID
     @apiParam {string} app_secret 应用私密 key，可以通过 蓝鲸智云开发者中心 -> 点击应用ID -> 基本信息 获取
     @apiParam {string} bk_token 当前用户登录态，bk_token与username必须一个有效，bk_token可以通过Cookie获取
-    @apiParam {string} bk_token 业务ID
+    @apiParam {string} app_id 业务ID
 
     @apiParamExample {json} Request-Example:
         {
